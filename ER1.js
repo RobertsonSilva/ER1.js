@@ -12,10 +12,38 @@ if(peso<100){
     console.log("A peça possui o tamanho adequado")
 }
 
-var listaDePecas = ["Lanterna", "Motor", "Amortecedor", "cambio", "painel", "cabeçote" ]
+var listaDePecas = ["Lanterna", "Motor", "Amortecedor", "cambio", "painel", "cabeçote"]
 if(listaDePecas.length < 10){
-    //é possível cadastrar
-    console.log(É possível cadastrar mais! Manda mais!)
-}else{
-    console.log(Não vai dar não... acabou o espaço!)
+    //é possivel cadastrar
+    console.log("É possivel cadastrar mais!! me da mais!! birllll!!!")
+} else{
+    console.log("Não vai dar não.... acabou o espaço")
+}
+
+
+
+
+if(nomePeca.length>3){
+    console.log("Nome de peça adequado para o cadastro")
+    }else{
+        console.log("O nome da peça deve ter mais que 3 caracteres, digite um nome adequado")
+    }
+
+let nomePeca = "ivonete em cima do chevette"
+switch(nomePeca.length){
+    case 0:
+    console.log("O nome nao pode ser vazio")
+    break;
+    case 1:
+        console.log("o nome tem apenas 1 caracter e precisa ser mais que 3")
+    break;
+    case 2:
+    console.log("o nome tem apenas 2 caracteres e precisa ser mais que 3")
+    break;
+    case 3:
+    console.log("o nome tem apenas 3 caracteres e precisa ser mais que 3")
+    break;
+    default:
+        console.log("o nome esta adequado")
+    break;
 }
